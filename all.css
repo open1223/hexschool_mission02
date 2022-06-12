@@ -1,0 +1,583 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* img RWD */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* css reset結束 */
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 140px;
+}
+
+/* mb設定 */
+
+.mb-1{
+    margin-bottom: 8px;
+}
+
+.mb-2{
+    margin-bottom: 16px;
+}
+
+.mb-3{
+    margin-bottom: 24px;
+}
+
+.mb-4{
+    margin-bottom: 32px;
+}
+
+.mb-6{
+    margin-bottom: 48px;
+}
+
+/* 字體大小設定開始 */
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* 字體大小設定結束 */
+
+/* 顏色設定開始 */
+.primary-color{
+    color: #56C4C5;
+}
+
+.wrap{
+    color: #221E1F;
+}
+
+/* 顏色設定結束 */
+
+.logo img{
+    height: 40px;
+}
+
+/* bubttonreset */
+button{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.plan a{
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 32px;
+    background-color: #FF5D50;
+    border-radius: 22px;
+}
+
+.plan a:hover{
+    background-color: #56C4C5;
+    border-radius: 22px;
+}
+
+.nav{
+    padding: 24px 0;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-bottom: 101px;
+}
+
+.banner{
+    justify-content: space-between;
+    padding-bottom: 118px;
+}
+
+.banner img{
+    width: 532px;
+}
+
+.bannerContent{
+    align-self: center;
+}
+
+/* header結束 */
+
+/* sns開始 */
+.sns h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.sns ul{
+    justify-content: space-evenly;
+}
+
+.snsForeach{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.snsForeach img{
+    margin: 0 auto 24px auto;
+    width: 90px;
+}
+
+.snsForeach p{
+    color: #747474;
+    text-align: center;
+    line-height: 24px;
+}
+
+/* roles開始 */
+.roles{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.role img{
+    width: 260px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.roleContent .title{
+    padding: 16px 0;
+}
+
+.roleContent .detail{
+    padding-bottom: 24px;
+}
+
+.roleContent{
+    box-shadow: 0px 2px 10px #00000014;
+    line-height: 24px;
+    border-radius: 12px;
+}
+
+.mr-2{
+    margin-right: 16px;
+}
+
+/* about開始 */
+.about{
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.aboutTitle{
+    padding: 165px 0;
+}
+
+.aboutTitle h2{
+    line-height: 46px;
+}
+
+.aboutTitle p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.aboutTitle .plan a{
+    background-color: #56C4C5;
+}
+
+.aboutTitle .plan a:hover{
+    background-color: #FF5D50;
+}
+
+.aboutItem .circle{
+    background: #FFFFFF;
+    width: 86px;
+    height: 86px;
+    border-radius:50%;
+    box-shadow: 0px 2px 10px #00000014;
+    margin-bottom: 24px;
+}
+
+.aboutItem img{
+    padding: 17px 15px 17px 19px;
+}
+
+.aboutItem{
+    width: 230px;
+    padding: 32px 32px 0 32px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+
+.aboutItem h5{
+    line-height: 26px;
+}
+
+.aboutItem p{
+    line-height: 24px;
+    padding-bottom: 48px;
+}
+
+.aboutItems{
+    flex-wrap: wrap;
+    width: 507px;
+}
+
+.mr-6{
+    margin-right: 47px;
+}
+
+.mb-7{
+    margin-bottom: 28px;
+}
+
+/* reviews開始 */
+.reviews{
+    justify-content: space-between;
+}
+
+.reviews h2{
+    line-height: 46px;
+    text-align: center;
+}
+
+.reviewUpper img{
+    width: 80px;
+    border-radius:50%;
+    position: absolute;
+    top: -54px;
+}
+
+.reviewUpper p{
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.reviewUpper{
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.reviewForeach{
+    width: 352px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    padding: 48px 32px 24px 32px;
+    position: relative;
+}
+
+.reviewUnder .company{
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.reviewUnder .name{
+    line-height: 24px;
+}
+
+.bgstars{
+    width: 100px;
+    justify-content: space-between;
+}
+
+.bgstars img{
+    width: 16.78px;
+}
+
+.stars{
+    justify-content: space-between;
+}
+
+.dots{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.grayDot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: #DDDDDD;
+    margin-right: 8px;
+}
+
+.yellowDot{
+    width: 16px;
+    height: 10px;
+    border-radius: 50px;
+    background: #FFD153;
+}
+
+/* footer開始 */
+footer{
+    text-align: center;
+}
+.footerMain{
+    padding-top: 260px;
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.footerMain .plan a{
+    background-color: #56C4C5;
+}
+
+.footerMain .plan a:hover{
+    background-color: #FF5D50;
+}
+
+.copyright{
+    line-height: 24px;
+    padding: 16px 0;
+    background-color: #F5F5F5;
+}
+
+/* plan頁面css開始 */
+
+.planimg{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+
+.planbanner{
+    background: #F7F9FD 0% 0%;
+    border-radius: 0px 0px 0px 300px;
+    height: 470px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.navplan{
+    margin-bottom: 92px;
+}
+
+.container2{
+    margin: 0 auto;
+    padding: 0 230px;
+}
+
+.choice{
+    text-align: center;
+}
+
+.planForeach .plan a{
+    background-color: #56C4C5;
+}
+
+.planForeach .plan .nochoice{
+    background-color: #FFFFFF;
+    color: #56C4C5;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+}
+
+.planForeach .plan a:hover{
+    background-color: #FF5D50;
+}
+
+.plans{
+    justify-content: center;
+    margin-bottom: 54px;
+}
+
+/* choiceMode開始 */
+
+.choiceModes{
+    margin-bottom: 100px;
+}
+
+.choiceModes h3{
+    line-height: 35px;
+    text-align: center;
+}
+
+.choiceTitle{
+    padding: 10px 19px 16px 29px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 32px;
+}
+
+.basic,.standard{
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    width: 444px;
+}
+
+.basic{
+    margin-right: 21px;
+}
+
+.modeContent{
+    padding: 0 19px 0 29px;
+}
+
+.modeContent p{
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.number{
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    width: 169px;
+    padding: 24px 32px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.number span{
+    font-size: 12px;
+}
+
+.fee{
+    padding: 24px 39px;
+}
+
+.equal{
+    font-size: 29px;
+    line-height: 42px;
+}
+
+.modePlan a{
+    background-color: #56C4C5;
+}
+
+.modePlan a:hover{
+    background-color: #FF5D50;
+}
+
+.modeLists{
+    padding-left: 58px;
+}
+
+.modeLists li{
+    list-style: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_check.svg);
+}
+
+.modeLists p{
+    margin-left: 13px;
+}
+
+.tac{
+    text-align: center;
+}
+
+/* qa開始 */
+
+.qa h2{
+    text-align: center;
+}
+
+.qa{
+    margin-bottom: 100px;
+}
+
+.qaForeach{
+    padding: 16px 32px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+
+.qaA{
+    line-height: 32px;
+    color: #747474;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.qatitle{
+    line-height: 28px;
+}
+
+.jcsv{
+    justify-content: space-evenly;
+    align-items: center;
+}
